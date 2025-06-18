@@ -1,13 +1,38 @@
-# 🧠 Proyecto de Salud Mental con IA
+# 🧠 Proyecto de Salud Mental con IA | [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-![alt text](TES.jpg)
+![Banner del Proyecto](TES.jpg)  
+_Ejemplo de interfaz del asistente de salud mental (reemplaza TES.jpg con tus capturas reales)_
 
 ## ✨ ¿Qué hace este proyecto?
 
-Usa **Ollama** y **PostgreSQL** para ayudar a las personas con salud mental mediante conversaciones asistidas por IA.
+Un asistente de IA que:
 
-## 🛠️ Requisitos
+- ✅ Analiza el estado emocional mediante conversaciones naturales (usando Ollama).
+- 📊 Almacena interacciones en PostgreSQL para seguimiento profesional.
+- 🔄 Genera informes semanales de progreso.
+- 🤖 Soporta múltiples modelos de IA (Llama 3, Mistral, etc.).
 
-1. Python 3.10+
-2. PostgreSQL (local o remoto)
-3. Ollama instalado (para IA local)
+---
+
+## 🛠️ Requisitos Técnicos
+
+| Componente | Versión | Notas                            |
+| ---------- | ------- | -------------------------------- |
+| Python     | 3.10+   | Usar `pyenv` o Anaconda          |
+| PostgreSQL | 15+     | Local o servicio cloud           |
+| Ollama     | Latest  | [Instalación](https://ollama.ai) |
+| RAM        | 8GB+    | Para modelos medianos de IA      |
+
+---
+
+## 🚀 Guía de Instalación Completa
+
+### 1. Clonar y configurar entorno
+
+```bash
+git clone https://github.com/Esteban4-CRo/TES.git
+cd TES
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+venv\Scripts\activate     # Windows
+```
