@@ -1,0 +1,2 @@
+
+conString= postgresql+psycopg2://postgres:94410404Juanito@db.ohpyroccblrxqdnmfjwr.supabase.co:5432/postgres

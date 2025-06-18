@@ -1,0 +1,17 @@
+bcrypt
+psycopg2
+psycopg2-binary
+streamlit
+Image
+langchain-groq
+langchain
+gradio
+google-generativeai
+langchain-community
+langchain-openai
+python-dotenv
+speechrecognition
+pyttsx3
+langchain_ollama
+schedule
+email-validator
