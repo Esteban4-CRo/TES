@@ -19,11 +19,10 @@ nombre_usuario = st.session_state.get("nombre_usuario")
 def conectar_db():
     try:
         connection = psycopg2.connect(
-            host='db.rbenrvkegphjaftoekjk.supabase.co',
-            user='postgres',
-            password='94410404Juan',
-            dbname='postgres',
-            port='5432'
+            host='localhost',
+            user='your_user',
+            password='your_password',
+            dbname='emotionalai'
         )
         return connection
     

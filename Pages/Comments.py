@@ -19,13 +19,13 @@ tipo_usuario = st.session_state.get("tipo_usuario")
 # Función para conectar a la base de datos
 def conectar_db():
     try:
-        return psycopg2.connect(
-            host='db.rbenrvkegphjaftoekjk.supabase.co',
-            user='postgres',
-            password='94410404Juan',
-            dbname='postgres',
-            port='5432'
+        connection = psycopg2.connect(
+            host='localhost',
+            user='your_user',
+            password='your_password',
+            dbname='emotionalai'
         )
+        return connection
     except Exception as ex:
         st.error(f"Error al conectar a la base de datos: {ex}")
         return None

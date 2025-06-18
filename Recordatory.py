@@ -23,11 +23,10 @@ def enviar_recordatorio(correo, nombre):
 
 def verificar_y_enviar():
     conn = psycopg2.connect(
-        host='db.rbenrvkegphjaftoekjk.supabase.co',
-        user='postgres',
-        password='94410404Juan',
-        dbname='postgres',
-        port='5432'
+        host='localhost',
+        user='your_user',
+        password='your_password',
+        dbname='emotionalai'
     )
     cursor = conn.cursor()
     diez_dias_atras = datetime.now() - timedelta(days=10)

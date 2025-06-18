@@ -11,11 +11,10 @@ util.spawn_menu()
 def conectar_db():
     try:
         connection = psycopg2.connect(
-            host='db.rbenrvkegphjaftoekjk.supabase.co',
-            user='postgres',
-            password='94410404Juan',
-            dbname='postgres',
-            port='5432'
+            host='localhost',
+            user='your_user',
+            password='your_password',
+            dbname='emotionalai'
         )
         return connection
     except Exception as ex:
