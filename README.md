@@ -1,7 +1,6 @@
 # 🧠 Proyecto de Salud Mental con IA | [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-![Banner del Proyecto](TES.jpg)  
-_Ejemplo de interfaz del asistente de salud mental (reemplaza TES.jpg con tus capturas reales)_
+![Banner del Proyecto](TES.jpg)
 
 ## ✨ ¿Qué hace este proyecto?
 
